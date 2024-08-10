@@ -1,0 +1,73 @@
+
+nav{
+    background-color: #b69ee6;
+}
+.container{
+    margin: 50px;
+}
+#inicio {
+    position: relative;
+  }
+  
+  #inicio img {
+    width: 100%;
+    display: block;
+  }
+  #inicio .bloque-inicio {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    width: 600px;
+    text-align: center;
+    margin-left: -200px;
+  }
+  #inicio .bloque-inicio h1 {
+    color: white;
+    font-size: 15px;
+  }
+  #inicio .bloque-inicio p {
+    color: white;
+    font-size: 10px;
+  }
+  
+  /* #informacion_personal {
+    
+    background-size: cover;
+  } */
+  
+  #informacion_personal p {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: auto;
+  }
+  .titulos{
+    text-align: center;
+    color: rgb(42, 15, 66);
+  }
+ 
+  footer.seccion {
+    background-color: black;
+    color: white;
+    padding-bottom: 0;
+  }
+  footer .barra-footer {
+    background-color: rgb(66, 53, 73);
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  footer ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  .columna {
+    width: 25%;
+  }
+  .fila{
+    display: flex ;
+  }
+  
+  
