@@ -8,7 +8,7 @@
     <title>Mi Portafolio</title>
     <link rel="shortcut icon" href="./assets/img/mini_logo.png" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script
       src="https://kit.fontawesome.com/2d171be56e.js"
       crossorigin="anonymous"
@@ -19,6 +19,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"/>
   </head>
+
   <body style="background-color: rgb(188, 138, 238);">
     <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
       <div class="container-fluid">
@@ -59,21 +60,12 @@
     </nav>
     <section id="inicio">
       <img src="./assets/img/banner.jpg" alt="" />
-      <div class="bloque-inicio">
-        <h1>Algun titulo</h1>
+      <!-- <div class="bloque-inicio">
+        <h2>Algun titulo</h2>
         <p>pequeña descripcion</p>
-      </div>
+      </div> -->
     </section>
-    <section id="informacion_personal" class="seccion">
-      <div class="container">
-        
-        <!-- <p>
-          aca voy a escribir la info personal despues Lorem ipsum dolor sit,
-          amet consectetur adipisicing elit. Debitis, corporis sunt magni ex
-          quis dolor dolore voluptatem sint temporibus iste, culpa labore unde
-          sapiente a reiciendis molestiae quos iusto magnam.
-        </p> -->
-        
+          
       </div>
     </section>
     <section id="informacion_personal" class="seccion">
@@ -81,7 +73,7 @@
           <div class="p-5 bg-body-tertiary rounded-3">
             <div class="container-fluid py-5">
               <h1>Información Personal</h1>
-              <p style="color: black;">
+              <p id="info_personal" style="color: black;">
                 aca voy a escribir la info personal despues Lorem ipsum dolor sit,
                 amet consectetur adipisicing elit. Debitis, corporis sunt magni ex
                 quis dolor dolore voluptatem sint temporibus iste, culpa labore unde
